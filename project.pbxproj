@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58E81F17087931F1738C138 /* Pods_Turtle_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914A239F81CF0917AA234069 /* Pods_Turtle_3.framework */; };
+		BC3124B42482D46100EFDF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124B32482D46100EFDF8D /* AppDelegate.swift */; };
+		BC3124B62482D46100EFDF8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124B52482D46100EFDF8D /* SceneDelegate.swift */; };
+		BC3124B82482D46100EFDF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124B72482D46100EFDF8D /* ViewController.swift */; };
+		BC3124BB2482D46200EFDF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3124B92482D46200EFDF8D /* Main.storyboard */; };
+		BC3124BD2482D46400EFDF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3124BC2482D46400EFDF8D /* Assets.xcassets */; };
+		BC3124C02482D46400EFDF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3124BE2482D46400EFDF8D /* LaunchScreen.storyboard */; };
+		BC3124C82482D4CE00EFDF8D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124C72482D4CE00EFDF8D /* SignUpViewController.swift */; };
+		BC3124CA2482D4D600EFDF8D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124C92482D4D600EFDF8D /* LogInViewController.swift */; };
+		BC3124CC2482D4DD00EFDF8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */; };
+		BC3124CF2482DC1F00EFDF8D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124CE2482DC1F00EFDF8D /* Utilities.swift */; };
+		BC578749248326E300FB1394 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC578748248326E300FB1394 /* Constants.swift */; };
+		BC7F559F24903C15002F322A /* swift.gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F559E24903C15002F322A /* swift.gif.swift */; };
+		BC7F55A524936350002F322A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F55A424936350002F322A /* SettingsViewController.swift */; };
+		BC947E4124B2A19D00A3C92A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB65C2022E71376917C5F3B /* Pods-Turtle 3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turtle 3.release.xcconfig"; path = "Target Support Files/Pods-Turtle 3/Pods-Turtle 3.release.xcconfig"; sourceTree = "<group>"; };
+		7DA0CEC7EB1D4838E599203D /* Pods-Turtle 3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turtle 3.debug.xcconfig"; path = "Target Support Files/Pods-Turtle 3/Pods-Turtle 3.debug.xcconfig"; sourceTree = "<group>"; };
+		914A239F81CF0917AA234069 /* Pods_Turtle_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turtle_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3124B02482D46100EFDF8D /* Turtle 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turtle 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3124B32482D46100EFDF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC3124B52482D46100EFDF8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC3124B72482D46100EFDF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC3124BA2482D46200EFDF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3124BC2482D46400EFDF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3124BF2482D46400EFDF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3124C12482D46400EFDF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3124C72482D4CE00EFDF8D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BC3124C92482D4D600EFDF8D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC3124CE2482DC1F00EFDF8D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BC578748248326E300FB1394 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC7F559E24903C15002F322A /* swift.gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift.gif.swift; sourceTree = "<group>"; };
+		BC7F55A424936350002F322A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3124AD2482D46100EFDF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58E81F17087931F1738C138 /* Pods_Turtle_3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5373145832B51FCC79923E19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA0CEC7EB1D4838E599203D /* Pods-Turtle 3.debug.xcconfig */,
+				4CB65C2022E71376917C5F3B /* Pods-Turtle 3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		952983E96271ABB87778AD72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914A239F81CF0917AA234069 /* Pods_Turtle_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3124A72482D46100EFDF8D = {
+			isa = PBXGroup;
+			children = (
+				BC3124B22482D46100EFDF8D /* Turtle 3 */,
+				BC3124B12482D46100EFDF8D /* Products */,
+				5373145832B51FCC79923E19 /* Pods */,
+				952983E96271ABB87778AD72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3124B12482D46100EFDF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3124B02482D46100EFDF8D /* Turtle 3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3124B22482D46100EFDF8D /* Turtle 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3124B32482D46100EFDF8D /* AppDelegate.swift */,
+				BC3124B52482D46100EFDF8D /* SceneDelegate.swift */,
+				BC3124D02482DC4200EFDF8D /* Helpers */,
+				BC3124CD2482D4E600EFDF8D /* View Controllers */,
+				BC3124B92482D46200EFDF8D /* Main.storyboard */,
+				BC3124BC2482D46400EFDF8D /* Assets.xcassets */,
+				BC3124BE2482D46400EFDF8D /* LaunchScreen.storyboard */,
+				BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */,
+				BC3124C12482D46400EFDF8D /* Info.plist */,
+				BC7F559E24903C15002F322A /* swift.gif.swift */,
+			);
+			path = "Turtle 3";
+			sourceTree = "<group>";
+		};
+		BC3124CD2482D4E600EFDF8D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC3124C72482D4CE00EFDF8D /* SignUpViewController.swift */,
+				BC3124C92482D4D600EFDF8D /* LogInViewController.swift */,
+				BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */,
+				BC3124B72482D46100EFDF8D /* ViewController.swift */,
+				BC7F55A424936350002F322A /* SettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BC3124D02482DC4200EFDF8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BC3124CE2482DC1F00EFDF8D /* Utilities.swift */,
+				BC578748248326E300FB1394 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3124AF2482D46100EFDF8D /* Turtle 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3124C42482D46400EFDF8D /* Build configuration list for PBXNativeTarget "Turtle 3" */;
+			buildPhases = (
+				4FD7EF7F0B15D2744621E90F /* [CP] Check Pods Manifest.lock */,
+				BC3124AC2482D46100EFDF8D /* Sources */,
+				BC3124AD2482D46100EFDF8D /* Frameworks */,
+				BC3124AE2482D46100EFDF8D /* Resources */,
+				8B920AF0D6A956F5D1DD40C2 /* [CP] Embed Pods Frameworks */,
+				609694AEDA8F0E5730CF29B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turtle 3";
+			productName = "Turtle 3";
+			productReference = BC3124B02482D46100EFDF8D /* Turtle 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3124A82482D46100EFDF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Arcie;
+				TargetAttributes = {
+					BC3124AF2482D46100EFDF8D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Turtle 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3124A72482D46100EFDF8D;
+			productRefGroup = BC3124B12482D46100EFDF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3124AF2482D46100EFDF8D /* Turtle 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3124AE2482D46100EFDF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3124C02482D46400EFDF8D /* LaunchScreen.storyboard in Resources */,
+				BC947E4124B2A19D00A3C92A /* GoogleService-Info.plist in Resources */,
+				BC3124BD2482D46400EFDF8D /* Assets.xcassets in Resources */,
+				BC3124BB2482D46200EFDF8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FD7EF7F0B15D2744621E90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Turtle 3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609694AEDA8F0E5730CF29B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B920AF0D6A956F5D1DD40C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3124AC2482D46100EFDF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3124B82482D46100EFDF8D /* ViewController.swift in Sources */,
+				BC3124B42482D46100EFDF8D /* AppDelegate.swift in Sources */,
+				BC3124CF2482DC1F00EFDF8D /* Utilities.swift in Sources */,
+				BC7F55A524936350002F322A /* SettingsViewController.swift in Sources */,
+				BC7F559F24903C15002F322A /* swift.gif.swift in Sources */,
+				BC3124C82482D4CE00EFDF8D /* SignUpViewController.swift in Sources */,
+				BC3124CA2482D4D600EFDF8D /* LogInViewController.swift in Sources */,
+				BC3124B62482D46100EFDF8D /* SceneDelegate.swift in Sources */,
+				BC3124CC2482D4DD00EFDF8D /* HomeViewController.swift in Sources */,
+				BC578749248326E300FB1394 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3124B92482D46200EFDF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3124BA2482D46200EFDF8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3124BE2482D46400EFDF8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3124BF2482D46400EFDF8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3124C22482D46400EFDF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC3124C32482D46400EFDF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3124C52482D46400EFDF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA0CEC7EB1D4838E599203D /* Pods-Turtle 3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEFA3TFBM7;
+				INFOPLIST_FILE = "Turtle 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcie.Turtle-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC3124C62482D46400EFDF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB65C2022E71376917C5F3B /* Pods-Turtle 3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEFA3TFBM7;
+				INFOPLIST_FILE = "Turtle 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcie.Turtle-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Turtle 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3124C22482D46400EFDF8D /* Debug */,
+				BC3124C32482D46400EFDF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3124C42482D46400EFDF8D /* Build configuration list for PBXNativeTarget "Turtle 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3124C52482D46400EFDF8D /* Debug */,
+				BC3124C62482D46400EFDF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3124A82482D46100EFDF8D /* Project object */;
+}
