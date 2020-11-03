@@ -17,7 +17,7 @@
                BlueprintIdentifier = "BC3124AF2482D46100EFDF8D"
                BuildableName = "Turtle 3.app"
                BlueprintName = "Turtle 3"
-               ReferencedContainer = "container:Turtle 3.xcodeproj">
+               ReferencedContainer = "container:Roots.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "BC3124AF2482D46100EFDF8D"
             BuildableName = "Turtle 3.app"
             BlueprintName = "Turtle 3"
-            ReferencedContainer = "container:Turtle 3.xcodeproj">
+            ReferencedContainer = "container:Roots.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "BC3124AF2482D46100EFDF8D"
             BuildableName = "Turtle 3.app"
             BlueprintName = "Turtle 3"
-            ReferencedContainer = "container:Turtle 3.xcodeproj">
+            ReferencedContainer = "container:Roots.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -19,9 +19,10 @@
 		BC3124CC2482D4DD00EFDF8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */; };
 		BC3124CF2482DC1F00EFDF8D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124CE2482DC1F00EFDF8D /* Utilities.swift */; };
 		BC578749248326E300FB1394 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC578748248326E300FB1394 /* Constants.swift */; };
+		BC6148A424F1706B00E8E70F /* firstQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6148A324F1706B00E8E70F /* firstQViewController.swift */; };
 		BC7F559F24903C15002F322A /* swift.gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F559E24903C15002F322A /* swift.gif.swift */; };
 		BC7F55A524936350002F322A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F55A424936350002F322A /* SettingsViewController.swift */; };
-		BC947E4124B2A19D00A3C92A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */; };
+		BCE2E92725469ADF00736E9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCE2E92625469ADF00736E9C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +42,11 @@
 		BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BC3124CE2482DC1F00EFDF8D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		BC578748248326E300FB1394 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC6148A324F1706B00E8E70F /* firstQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstQViewController.swift; sourceTree = "<group>"; };
 		BC7F559E24903C15002F322A /* swift.gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift.gif.swift; sourceTree = "<group>"; };
 		BC7F55A424936350002F322A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCE2E92625469ADF00736E9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCE2E92825476A5E00736E9C /* Turtle 3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Turtle 3.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		BC3124B22482D46100EFDF8D /* Turtle 3 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE2E92825476A5E00736E9C /* Turtle 3.entitlements */,
 				BC3124B32482D46100EFDF8D /* AppDelegate.swift */,
 				BC3124B52482D46100EFDF8D /* SceneDelegate.swift */,
 				BC3124D02482DC4200EFDF8D /* Helpers */,
@@ -103,8 +107,8 @@
 				BC3124B92482D46200EFDF8D /* Main.storyboard */,
 				BC3124BC2482D46400EFDF8D /* Assets.xcassets */,
 				BC3124BE2482D46400EFDF8D /* LaunchScreen.storyboard */,
-				BC947E4024B2A19D00A3C92A /* GoogleService-Info.plist */,
 				BC3124C12482D46400EFDF8D /* Info.plist */,
+				BCE2E92625469ADF00736E9C /* GoogleService-Info.plist */,
 				BC7F559E24903C15002F322A /* swift.gif.swift */,
 			);
 			path = "Turtle 3";
@@ -118,6 +122,7 @@
 				BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */,
 				BC3124B72482D46100EFDF8D /* ViewController.swift */,
 				BC7F55A424936350002F322A /* SettingsViewController.swift */,
+				BC6148A324F1706B00E8E70F /* firstQViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -143,7 +148,7 @@
 				BC3124AD2482D46100EFDF8D /* Frameworks */,
 				BC3124AE2482D46100EFDF8D /* Resources */,
 				8B920AF0D6A956F5D1DD40C2 /* [CP] Embed Pods Frameworks */,
-				609694AEDA8F0E5730CF29B2 /* [CP] Copy Pods Resources */,
+				32561753FECA4BBCF0BEFED7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Turtle 3" */;
+			buildConfigurationList = BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Roots" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -193,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3124C02482D46400EFDF8D /* LaunchScreen.storyboard in Resources */,
-				BC947E4124B2A19D00A3C92A /* GoogleService-Info.plist in Resources */,
+				BCE2E92725469ADF00736E9C /* GoogleService-Info.plist in Resources */,
 				BC3124BD2482D46400EFDF8D /* Assets.xcassets in Resources */,
 				BC3124BB2482D46200EFDF8D /* Main.storyboard in Resources */,
 			);
@@ -202,6 +207,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		32561753FECA4BBCF0BEFED7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4FD7EF7F0B15D2744621E90F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,23 +244,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		609694AEDA8F0E5730CF29B2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turtle 3/Pods-Turtle 3-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B920AF0D6A956F5D1DD40C2 /* [CP] Embed Pods Frameworks */ = {
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6148A424F1706B00E8E70F /* firstQViewController.swift in Sources */,
 				BC3124B82482D46100EFDF8D /* ViewController.swift in Sources */,
 				BC3124B42482D46100EFDF8D /* AppDelegate.swift in Sources */,
 				BC3124CF2482DC1F00EFDF8D /* Utilities.swift in Sources */,
@@ -419,14 +425,16 @@
 			baseConfigurationReference = 7DA0CEC7EB1D4838E599203D /* Pods-Turtle 3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Turtle 3/Turtle 3.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NEFA3TFBM7;
+				DEVELOPMENT_TEAM = 6293M4XTUK;
 				INFOPLIST_FILE = "Turtle 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcie.Turtle-3";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcie.Turtle3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,14 +446,16 @@
 			baseConfigurationReference = 4CB65C2022E71376917C5F3B /* Pods-Turtle 3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Turtle 3/Turtle 3.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NEFA3TFBM7;
+				DEVELOPMENT_TEAM = 6293M4XTUK;
 				INFOPLIST_FILE = "Turtle 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arcie.Turtle-3";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcie.Turtle3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Turtle 3" */ = {
+		BC3124AB2482D46100EFDF8D /* Build configuration list for PBXProject "Roots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC3124C22482D46400EFDF8D /* Debug */,
