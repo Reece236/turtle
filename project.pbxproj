@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A62DA9879CDF7BF62AE4E5C /* Pods_Turtle_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54268EB96CC912C92117E55 /* Pods_Turtle_3.framework */; };
 		B58E81F17087931F1738C138 /* Pods_Turtle_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914A239F81CF0917AA234069 /* Pods_Turtle_3.framework */; };
 		BC3124B42482D46100EFDF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124B32482D46100EFDF8D /* AppDelegate.swift */; };
 		BC3124B62482D46100EFDF8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3124B52482D46100EFDF8D /* SceneDelegate.swift */; };
@@ -21,7 +22,6 @@
 		BC578749248326E300FB1394 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC578748248326E300FB1394 /* Constants.swift */; };
 		BC6148A424F1706B00E8E70F /* firstQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6148A324F1706B00E8E70F /* firstQViewController.swift */; };
 		BC7F559F24903C15002F322A /* swift.gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F559E24903C15002F322A /* swift.gif.swift */; };
-		BC7F55A524936350002F322A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7F55A424936350002F322A /* SettingsViewController.swift */; };
 		BCE2E92725469ADF00736E9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCE2E92625469ADF00736E9C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +44,9 @@
 		BC578748248326E300FB1394 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC6148A324F1706B00E8E70F /* firstQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstQViewController.swift; sourceTree = "<group>"; };
 		BC7F559E24903C15002F322A /* swift.gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift.gif.swift; sourceTree = "<group>"; };
-		BC7F55A424936350002F322A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BCE2E92625469ADF00736E9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCE2E92825476A5E00736E9C /* Turtle 3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Turtle 3.entitlements"; sourceTree = "<group>"; };
+		E54268EB96CC912C92117E55 /* Pods_Turtle_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turtle_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58E81F17087931F1738C138 /* Pods_Turtle_3.framework in Frameworks */,
+				5A62DA9879CDF7BF62AE4E5C /* Pods_Turtle_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +71,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		952983E96271ABB87778AD72 /* Frameworks */ = {
+		6FC1375E32C572DC1EFBAF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E54268EB96CC912C92117E55 /* Pods_Turtle_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		952983E96271ABB87778AD72 /* ''''''''''''[ */ = {
 			isa = PBXGroup;
 			children = (
 				914A239F81CF0917AA234069 /* Pods_Turtle_3.framework */,
 			);
-			name = Frameworks;
+			name = "''''''''''''[";
 			sourceTree = "<group>";
 		};
 		BC3124A72482D46100EFDF8D = {
@@ -84,7 +93,8 @@
 				BC3124B22482D46100EFDF8D /* Turtle 3 */,
 				BC3124B12482D46100EFDF8D /* Products */,
 				5373145832B51FCC79923E19 /* Pods */,
-				952983E96271ABB87778AD72 /* Frameworks */,
+				952983E96271ABB87778AD72 /* ''''''''''''[ */,
+				6FC1375E32C572DC1EFBAF37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +131,6 @@
 				BC3124C92482D4D600EFDF8D /* LogInViewController.swift */,
 				BC3124CB2482D4DD00EFDF8D /* HomeViewController.swift */,
 				BC3124B72482D46100EFDF8D /* ViewController.swift */,
-				BC7F55A424936350002F322A /* SettingsViewController.swift */,
 				BC6148A324F1706B00E8E70F /* firstQViewController.swift */,
 			);
 			path = "View Controllers";
@@ -274,7 +283,6 @@
 				BC3124B82482D46100EFDF8D /* ViewController.swift in Sources */,
 				BC3124B42482D46100EFDF8D /* AppDelegate.swift in Sources */,
 				BC3124CF2482DC1F00EFDF8D /* Utilities.swift in Sources */,
-				BC7F55A524936350002F322A /* SettingsViewController.swift in Sources */,
 				BC7F559F24903C15002F322A /* swift.gif.swift in Sources */,
 				BC3124C82482D4CE00EFDF8D /* SignUpViewController.swift in Sources */,
 				BC3124CA2482D4D600EFDF8D /* LogInViewController.swift in Sources */,
@@ -357,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -412,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,11 +444,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcie.Turtle3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,11 +466,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcie.Turtle3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
